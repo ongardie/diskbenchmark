@@ -1,3 +1,7 @@
 /bench
 /bench.dat
+/machines/*
 /README.html
+/results.csv
+/results.svg
+/Rplots.pdf
