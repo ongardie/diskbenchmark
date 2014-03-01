@@ -102,9 +102,9 @@ invoke it, run:
 
 If you know R and ggplot2, you'll find this to be a good starting point. If you
 don't, your mileage may vary with the default graph. A sample graph is included
-in `results.sample.svg`:
+in `results.sample.png`:
 
-![results.sample.svg](results.sample.svg).
+![results.sample.png](results.sample.png).
 
 That's everything you'll find here for now. Go test your disks! Pull requests
 are welcome.
