@@ -18,7 +18,7 @@ int main(int argc, const char** argv) {
         fprintf(stderr, "open failed: %s\n", strerror(errno));
         exit(1);
     }
-    int r = posix_fallocate(fd, 0, 1000 * 1024);
+    int r = posix_fallocate(fd, 0, 1000 * len);
     if (r != 0) {
         fprintf(stderr, "fallocate failed: %s\n", strerror(r));
         exit(1);
