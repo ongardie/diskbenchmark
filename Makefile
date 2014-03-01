@@ -1,4 +1,4 @@
-all: bench2
+all: bench
 
 %: %.c
 	gcc -Wall $< -o $@
