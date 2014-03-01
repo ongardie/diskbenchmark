@@ -1,7 +1,7 @@
 all: bench
 
 %: %.c
-	gcc -Wall $< -o $@
+	gcc -Wall -lrt $< -o $@
 
 %.html: %.md
 	markdown $< >$@
